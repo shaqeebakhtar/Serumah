@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serumah</title>
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- adding fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- adding css and js-->
+    <link rel="stylesheet" href="/css/style.css" />
+    <script defer src="/js/script.js"></script>
+  </head>
+  <body>
+    <header class="flex">
+      <div class="logo">
+        <a href="index.html">
+          <img src="/assets/logo/logo-serumah.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="flex" style="align-items: center">
+        <nav>
+          <ul id="nav-menu" class="nav-menu flex" data-visible="false">
+            <li><a href="#" class="nav-link active">Home</a></li>
+            <li><a href="#" class="nav-link">Property</a></li>
+            <li><a href="#" class="nav-link">About Us</a></li>
+            <li><a href="#" class="nav-link">Agents</a></li>
+          </ul>
+        </nav>
+        <button class="btn contact">Contact</button>
+
+        <button
+          class="nav-toggle"
+          aria-controls="nav-menu"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+        </button>
+      </div>
+    </header>
+    <section class="hero">
+      <h1 class="hero__title">Find Property that are made for you.</h1>
+      <p class="hero__body-text">
+        Eveniet suscipit est, iusto dignissimos distinctio, nam beatae vel omnis
+        eligendi blanditiis odio non. Eius ea natus neque.
+      </p>
+      <button class="btn cta-main">Get Started</button>
+      <div class="achievements flex">
+        <p>
+          1200
+          <span class="more-sign">+</span>
+          <span class="subtext">Property Listed</span>
+        </p>
+        <p>
+          4500
+          <span class="more-sign">+</span>
+          <span class="subtext">Happy Customers</span>
+        </p>
+        <p>
+          240
+          <span class="more-sign">+</span>
+          <span class="subtext">Awards Won</span>
+        </p>
+      </div>
+      <div class="search flex">
+        <p class="search__heading">Search for homes in your budget</p>
+        <form action="#">
+          <input type="text" id="location" placeholder="Location" />
+          <label for="location"><i class="bx bxs-map"></i></label>
+          <input type="text" id="type" placeholder="Type" />
+          <label for="type"><i class="bx bxs-home"></i></label>
+          <input type="text" id="budget" placeholder="Budget" />
+          <label for="budget"><i class="bx bxs-dollar-circle"></i></label>
+          <button class="btn search-btn">Search Now</button>
+        </form>
+      </div>
+    </section>
+    <section class="popular">
+      <div class="heading flex">
+        <div>
+          <p class="heading-label">Popular</p>
+          <h3 class="sub-heading">Our Popular Residences</h3>
+        </div>
+
+        <a href="#">
+          <div class="explore flex">
+            <p>Explore All</p>
+            <img src="/assets/images/arrow-right.svg" alt="arrow" />
+          </div>
+        </a>
+      </div>
+      <div class="residence-group flex">
+        <div class="residence">
+          <div class="residence-image">
+            <img
+              src="https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+              alt="residence-image"
+            />
+          </div>
+          <div class="info">
+            <p class="location">
+              <i class="bx bxs-map"></i>
+              Jakarta Barat, Indonesia
+            </p>
+            <div class="features flex">
+              <p class="rooms">
+                <i class="bx bxs-bed"></i>
+                4 bed
+              </p>
+              <p class="size">
+                <i class="bx bxs-ruler"></i>
+                10x10 m
+              </p>
+              <p class="area">
+                <i class="bx bx-area"></i>
+                1800 m
+                <span class="power">2</span>
+              </p>
+            </div>
+            <div class="residence-cta flex">
+              <button class="btn">Book Now</button>
+              <p class="price">$5,40,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="residence">
+          <div class="residence-image">
+            <img
+              src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+              alt="residence-image"
+            />
+          </div>
+          <div class="info">
+            <p class="location">
+              <i class="bx bxs-map"></i>
+              Cikarang Utara, Indonesia
+            </p>
+            <div class="features flex">
+              <p class="rooms">
+                <i class="bx bxs-bed"></i>
+                3 bed
+              </p>
+              <p class="size">
+                <i class="bx bxs-ruler"></i>
+                8x8 m
+              </p>
+              <p class="area">
+                <i class="bx bx-area"></i>
+                1400 m
+                <span class="power">2</span>
+              </p>
+            </div>
+            <div class="residence-cta flex">
+              <button class="btn">Book Now</button>
+              <p class="price">$4,10,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="residence">
+          <div class="residence-image">
+            <img
+              src="https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+              alt="residence-image"
+            />
+          </div>
+          <div class="info">
+            <p class="location">
+              <i class="bx bxs-map"></i>
+              Tangerang Barat, Indonesia
+            </p>
+            <div class="features flex">
+              <p class="rooms">
+                <i class="bx bxs-bed"></i>
+                5 bed
+              </p>
+              <p class="size">
+                <i class="bx bxs-ruler"></i>
+                15x15 m
+              </p>
+              <p class="area">
+                <i class="bx bx-area"></i>
+                2000 m
+                <span class="power">2</span>
+              </p>
+            </div>
+            <div class="residence-cta flex">
+              <button class="btn">Book Now</button>
+              <p class="price">$7,40,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about-us flex">
+        <p class="founder">
+          Jose Kusuma
+          <span class="position">Founder Serumah</span>
+        </p>
+        <div class="quote">
+          <i class="bx bxs-quote-left"></i>
+          <p>
+            Our business is one of close relationships and we are very fortunate
+            to be able to share so many positibe real estate experiences with
+            out clients.
+          </p>
+        </div>
+      </div>
+      <div class="clients flex">
+        <img src="/assets/logo/Equinix.svg" alt="client-logo" />
+        <img src="/assets/logo/digital-realty.svg" alt="client-logo" />
+        <img
+          src="/assets/logo/American_Tower_Corporation_logo.svg"
+          alt="client-logo"
+        />
+        <img src="/assets/logo/Prologis_logo.svg" alt="client-logo" />
+      </div>
+    </section>
+    <section class="our-services">
+      <div class="our-service__image flex">
+        <img
+          class="img-1"
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuc2lvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+          alt="house"
+        />
+        <img
+          class="img-2"
+          src="https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bHV4dXJ5JTIwaG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+          alt="house"
+        />
+      </div>
+      <div class="our-service__body">
+        <p class="heading-label">Our Service</p>
+        <h3 class="sub-heading">Comfort is our Top Priotity for you</h3>
+        <p class="service__body-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint error in
+          expedita labore animi, consectetur repellendus quia.
+        </p>
+        <div class="services">
+          <div>
+            <p class="list-item">Premium national marketing</p>
+            <p class="list-item">Managed viewings</p>
+          </div>
+          <div>
+            <p class="list-item">Free, no obligation valuations</p>
+            <p class="list-item">Local area knowledge</p>
+          </div>
+        </div>
+        <button class="btn">See More</button>
+      </div>
+    </section>
+    <section class="our-blog">
+      <p class="heading-label">Our Blog</p>
+      <div class="blog__body flex">
+        <h3 class="sub-heading">Latest housing information</h3>
+        <p class="blog__body-text">
+          Consequatur quo voluptates consectetur provident praesentium vero
+          neque dolorem. Lorem ipsum dolor sit amet.
+        </p>
+        <button class="btn">See All Article</button>
+      </div>
+      <div class="articles">
+        <article class="article">
+          <div class="article-image">
+            <img
+              src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+              alt="house image"
+            />
+          </div>
+          <p class="date-posted list-item">23 November</p>
+          <p class="article-title">
+            Home Sales about to surge? We may see a summer like never before.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+        <article class="article">
+          <div class="article-image">
+            <img
+              src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+              alt="house image"
+            />
+          </div>
+          <p class="date-posted list-item">22 November</p>
+          <p class="article-title">
+            Housing challenge or Housing opportunity? It depends.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+        <article class="article">
+          <div class="article-image">
+            <img
+              src="https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+              alt="house image"
+            />
+          </div>
+          <p class="date-posted list-item">21 November</p>
+          <p class="article-title">
+            Retirement may be changing what you need in a home.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <p class="heading-label">Testimonial</p>
+      <h3 class="sub-heading">What Our Customer Say About Us</h3>
+      <div class="carousel">
+        <div class="carousel__track-container flex">
+          <div class="carousel__slide">
+            <div class="review flex">
+              <img
+                src="/assets/images/avatar-1.jpg"
+                alt="person image"
+                class="avatar"
+              />
+              <div>
+                <p class="name">Jose Kusuma</p>
+                <p class="position">Designer</p>
+                <p class="review-body">
+                  We were very impressed with The Real Estate values and selling
+                  method, In particular, we did not want open inspections or to
+                  sell by auction.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel__slide">
+            <div class="review flex">
+              <img
+                src="/assets/images/avatar-2.jpg"
+                alt="person image"
+                class="avatar"
+              />
+              <div>
+                <p class="name">Tim Parker</p>
+                <p class="position">Manager</p>
+                <p class="review-body">
+                  We were very impressed with The Real Estate values and selling
+                  method, In particular, we did not want open inspections or to
+                  sell by auction.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel__slide">
+            <div class="review flex">
+              <img
+                src="/assets/images/avatar-3.jpg"
+                alt="person image"
+                class="avatar"
+              />
+              <div>
+                <p class="name">Adelaine Kusuma</p>
+                <p class="position">Designer</p>
+                <p class="review-body">
+                  We were very impressed with The Real Estate values and selling
+                  method, In particular, we did not want open inspections or to
+                  sell by auction.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-group flex">
+          <button class="btn-left no-slide">
+            <img src="/assets/images/arrow-left.svg" alt="" />
+          </button>
+          <button class="btn-right">
+            <img src="/assets/images/arrow-right.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="faq-intro">
+        <p class="heading-label">Question</p>
+        <h3 class="sub-heading">Frequently Asked Questions</h3>
+        <p class="faq-body">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate
+          omnis minus dolor corrupti facere nihil!
+        </p>
+        <button class="btn">See More</button>
+      </div>
+      <div class="accordion">
+        <div class="accordion-item" data-visible="false">
+          <div class="question flex">
+            <p>Do you offer home loan services?</p>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+          <div class="answer">
+            <p>
+              Yes, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+              facere. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item" data-visible="false">
+          <div class="question flex">
+            <p>What are Capital Gains on property purchase?</p>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+          <div class="answer">
+            <p>
+              The capital gains are dolor sit amet, consectetur adipisicing
+              elit. Et, facere. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item" data-visible="false">
+          <div class="question flex">
+            <p>What kind of properties are listed on your website?</p>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+              facere. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer flex">
+      <div class="logo">
+        <a href="index.html">
+          <img src="/assets/logo/logo-serumah.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="socials">
+        <a href="#" class="social-link"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="social-link"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="social-link"><i class="bx bxl-linkedin"></i></a>
+        <a href="#" class="social-link"><i class="bx bxl-instagram-alt"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
