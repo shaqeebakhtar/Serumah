@@ -2,7 +2,7 @@
 
 ### Design
 
-![](/Serumah/design/real-estate-by-dani hanafi.png)
+![](Serumah/design/real-estate-by-dani hanafi.png)
 
 The Design [Serumah - Real Estate Market Landing Page](https://dribbble.com/shots/16972523-Serumah-Real-Estate-Market-Landing-Page) is orginally made by [Dani Hanafi](https://dribbble.com/danihanafi).
 
